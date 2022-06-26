@@ -6,35 +6,35 @@
 #### **Creacion de Virtual Enviroment**
 #### **Creacion de un nuevo proyecto DJango**
 #### **Creacion de Aplicaciones dentro del proyecto**
-Registro de Aplicaciones en settings.py
-Creacion de modelo dentro de la App (datos y funciones del modelo)
-Migraciones
-Registro del Modelo en el modulo de Admin de la App, sobreescritura de clases django.
-Registro de URLs de la App en settings.py (rutas dinamicas, para llamarlas desde template tambien)
+- Registro de Aplicaciones en settings.py
+- Creacion de modelo dentro de la App (datos y funciones del modelo)
+- Migraciones
+- Registro del Modelo en el modulo de Admin de la App, sobreescritura de clases django.
+- Registro de URLs de la App en settings.py (rutas dinamicas, para llamarlas desde template tambien)
 
 #### **Inclusion de Templates**
-Creacion y locacion de directorio de Templates
-Registro del directorio de Templates
-Factorizacion
-Bloques dinamicos
-Llamar funciones del Modelo desde Template
-Llamar urls desde el Template
+- Creacion y locacion de directorio de Templates
+- Registro del directorio de Templates
+- Factorizacion
+- Bloques dinamicos
+- Llamar funciones del Modelo desde Template
+- Llamar urls desde el Template
 
 #### **Contenido estatico y recoleccion del mismo para acceso publico**
-Definicion, inclusion y correcta ubicacion
-Configuracion
-Recoleccion para servirlo en todas las Apps (publico)
+- Definicion, inclusion y correcta ubicacion
+- Configuracion
+- Recoleccion para servirlo en todas las Apps (publico)
 
 #### **Desarrollo en general**
-Patron Modelo Vista Template
-Vistas basadas en funciones
-Variable context
-return render
-Slug
-Reescritura de URLS para hacerlas dinamicas y con uso de slug
-uso de GIT con github.com
-Uso de contenido dinamico, variables y funciones llamdas desde los Template
-Uso del modulo Admin, personalizacion
-Autenticacion en DJango, modificacion del modulo de autenticacion para usar correo como identidad
-Obtencion de URL de la imagen (propiedad de un objeto) desde el Template (para mostrarlo en la web)
+- Patron Modelo Vista Template
+- Vistas basadas en funciones
+- Variable context
+- return render
+- Slug
+- Reescritura de URLS para hacerlas dinamicas y con uso de slug
+- uso de GIT con github.com
+- Uso de contenido dinamico, variables y funciones llamdas desde los Template
+- Uso del modulo Admin, personalizacion
+- Autenticacion en DJango, modificacion del modulo de autenticacion para usar correo como identidad
+- Obtencion de URL de la imagen (propiedad de un objeto) desde el Template (para mostrarlo en la web)
 

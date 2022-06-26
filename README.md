@@ -1,10 +1,23 @@
 # PROYECTO DE ECOMMERCE PARA EL CURSO "La Ruta de Python | Django Fullstack Developer" de Udemy
 ##### El curso inicia desde los fundamentos de Python, para luego estudiar y practicar el uso del framework django
+
 ## DESCRIPCION DEL PROYECTO
-### Implementacion de un eCommerce utilizando DJango y sqlite
-### Temas a resaltar
+
+##### Implementacion de un eCommerce utilizando DJango y sqlite
+
+## Temas a resaltar
+
 #### **Creacion de Virtual Enviroment**
+- Creacion, Uso y activacion
+- Ubicacion en el proyecto
+- instalacion de paquetes con pip
+
 #### **Creacion de un nuevo proyecto DJango**
+- seleccion del venv
+- inicializar proyecto django
+- HOME: ruta en urls.py, funcion home en views.py, Template
+- Admin: creacion del superusuario, login
+
 #### **Creacion de Aplicaciones dentro del proyecto**
 - Registro de Aplicaciones en settings.py
 - Creacion de modelo dentro de la App (datos y funciones del modelo)

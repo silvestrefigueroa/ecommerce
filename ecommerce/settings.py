@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',#App accounts
     'store',#App store
     'mathfilters',#Para calculos en el template
+    'carts',#Registrar app del carrito
 ]
 
 MIDDLEWARE = [
@@ -67,6 +68,9 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'category.context_processors.menu_links',#registro la funcion menu_links de la App category (para que cualquier template lo pueda usar, seria como publicarla entre los templates)
+                'carts.context_processors.counter',#registro la funcion del contador del carrito
+
+                
             ],
         },
     },
